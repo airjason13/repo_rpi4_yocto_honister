@@ -25,6 +25,6 @@
   <project remote="python2" name="meta-python2" revision="5243d509aebff378c1ae9d3dff6a29cfdc0dee1f"  path="meta-python2"/>
   <project remote="rust" name="meta-rust" revision="d4384db8c3f0aa01732627f92fc3d446359bf743"  path="meta-rust"/>
   <project remote="swupdate" name="meta-swupdate" revision="82882e99029e90e4246a05b11150c0b13b7e3121"  path="meta-swupdate"/>
-  <project remote="venom-honister" name="meta-venom" revision="5eacd2d7e6fb325b9a4e5f187c330e4fb5727c28"  path="meta-venom-honister"/>
+  <project remote="venom-honister" name="meta-venom-honister" revision="5eacd2d7e6fb325b9a4e5f187c330e4fb5727c28"  path="meta-venom-honister"/>
 
 </manifest>
