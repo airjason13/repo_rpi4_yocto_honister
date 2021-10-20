@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" />
+  
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://github.com/agherzan" name="raspberrypi"/>
+  <remote fetch="git://github.com/openembedded" name="oe"/>
+  <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
+  <remote fetch="git://github.com/kraj" name="clang"/>
+  <remote fetch="git://github.com/meta-qt5" name="qt5"/>
+  <remote fetch="git://github.com/schnitzeltony" name="qt5-extra"/>
+  <remote fetch="git://git.openembedded.org" name="python2"/>
+  <remote fetch="git://github.com/meta-rust" name="rust"/>
+  <remote fetch="git://github.com/sbabic" name="swupdate"/>
+  <remote fetch="git://github.com/airjason13" name="venom-honister"/>
+  
+  <project remote="yocto" name="poky" revision="f6d1126fff213460dc6954a5d5fc168606d76b66" path="poky" />
+  <project remote="raspberrypi" name="meta-raspberrypi" revision="90b3ac6fb3037118bc711a14adcb31d2bcd7dfa4" path="meta-raspberrypi" />
+  <project remote="oe" name="meta-openembedded" revision="41e43410611a2fc8aff8da36b558ed338bb85e30"  path="meta-openembedded"/>
+  <project remote="OSSystems" name="meta-browser" revision="3711d7fcfe76751ffbdff4961e1b15498886e46b"  path="meta-browser"/>
+  <project remote="clang" name="meta-clang" revision="826f7287ffb8ae87bd843ecfe4a21a661bb03294"  path="meta-clang"/>
+  <project remote="qt5" name="meta-qt5" revision="b6680da369626c932afb784fb28836881cd0457a"  path="meta-qt5"/>
+  <project remote="qt5-extra" name="meta-qt5-extra" revision="28c01aab00d8039f7f09070a27ed022689d00a19"  path="meta-qt5-extra"/>
+  <project remote="python2" name="meta-python2" revision="5243d509aebff378c1ae9d3dff6a29cfdc0dee1f"  path="meta-python2"/>
+  <project remote="rust" name="meta-rust" revision="d4384db8c3f0aa01732627f92fc3d446359bf743"  path="meta-rust"/>
+  <project remote="swupdate" name="meta-swupdate" revision="82882e99029e90e4246a05b11150c0b13b7e3121"  path="meta-swupdate"/>
+  <project remote="venom-honister" name="meta-venom" revision="5eacd2d7e6fb325b9a4e5f187c330e4fb5727c28"  path="meta-venom-honister"/>
+
+</manifest>
