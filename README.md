@@ -5,7 +5,7 @@
 ### 1. 
 Download This default.xml with repo
 
-      repo init -u https://github.com/airjasron13/repo_rpi4_yocto_honister
+      repo init -u https://github.com/airjason13/repo_rpi4_yocto_honister
       
 ### 2.
 
